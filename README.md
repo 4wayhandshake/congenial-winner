@@ -5,9 +5,18 @@ This tool is used for reading privileged files, by abusing the capabilities assi
 
 ## Instructions
 
-Just run the python file. Supply the required arguments.
+Just run the python file. Supply the required arguments:
+```
+known-plaintext.py [-h] [--hex] target length
+```
+`-h` to see the help text
 
-You'll need to estimate the number of characters in the file you're tring to dump.
+`--hex` to read a target that contains hexadecimal characters only (like an HTB flag)
+
+`target`: required. The absolute filepath of the file to read
+
+`length`: required. An estimate of the length of the file to read. If unknown, overestimate. 
+
 
 ![known-plaintext-screenshot](known-plaintext-screenshot.gif)
 
