@@ -9,5 +9,5 @@ Just run the python file. Supply the required arguments.
 
 You'll need to estimate the number of characters in the file you're tring to dump.
 
-![known-plaintext-screenshot](../known-plaintext-screenshot.gif)
+![known-plaintext-screenshot](known-plaintext-screenshot.gif)
 
